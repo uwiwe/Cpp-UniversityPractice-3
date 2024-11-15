@@ -71,7 +71,7 @@ int main() {
             cout << "La ecuacion dada forma una linea vertical, siendo esta x = " << coordenadas[0].x << endl;
         } else {
             float interseccion = calcularInterseccion(coordenadas[0], pendienteInicial);
-            cout << "La ecuacion dada es la siguiente (desde los primeros dos puntos, por lo que para aquellos puntos que no esten en la misma linea, no aplica):" << "y = " << pendienteInicial << "x + " << interseccion << endl;
+            cout << "La ecuacion dada es la siguiente (desde los primeros dos puntos, por lo que para aquellos puntos que no esten en la misma linea, no aplica): " << "y = " << pendienteInicial << "x + " << interseccion << endl;
         }
 
         if (mismaLinea) {
